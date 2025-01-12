@@ -123,8 +123,8 @@ module.exports = {
         },
       },
       fontFamily:{
-        'karla': ['Karla', 'sans-serif'],
-        'big-shoulders-text': ['Big Shoulders Text', 'sans-serif'],
+        'body': ['Karla', 'sans-serif'],
+        'display': ['Big Shoulders Text', 'sans-serif'],
       },
     },
   },
