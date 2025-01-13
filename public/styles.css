@@ -910,6 +910,10 @@ video {
   min-width: 2rem;
 }
 
+.min-w-\[30rem\] {
+  min-width: 30rem;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -1464,12 +1468,22 @@ video {
        column-gap: 1rem;
 }
 
+.gap-x-\[2rem\] {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
 .gap-y-4 {
   row-gap: 1rem;
 }
 
 .gap-y-\[2\.5rem\] {
   row-gap: 2.5rem;
+}
+
+.gap-x-\[3rem\] {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
